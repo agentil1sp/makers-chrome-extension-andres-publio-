@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Mi extensión",
+    "description": "Descripción de mi extensión",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "images/icon.png"
+    }
+  }
