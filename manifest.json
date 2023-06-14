@@ -1,8 +1,12 @@
 {
     "manifest_version": 3,
-    "name": "Mi extensión",
-    "description": "Descripción de mi extensión",
+    "name": "ChatGPT Extension",
+    "description": "Permite interactuar con ChatGPT sin salir de la pestaña",
     "version": "1.0",
+    "permissions": [
+      "activeTab",
+      "unlimitedStorage"
+    ],
     "action": {
       "default_popup": "popup/popup.html",
       "default_icon": "images/icon.png"
